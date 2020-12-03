@@ -1,0 +1,50 @@
+.LoginForm{
+    text-align: center;
+    margin:15em;
+
+}
+
+
+
+input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+label{
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+
+
+
+/* Remove Arrows/Spinners from input fields. */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Mozilla Firefox */
+input[type="number"]{
+    -moz-appearance: textfield;
+}
